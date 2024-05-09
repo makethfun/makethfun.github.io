@@ -1,4 +1,4 @@
-baseURL: "https://examplesite.com/"
+baseURL: "https://makethfun.github.io/"
 title: MY TIL CHALLENGE
 paginate: 5
 theme: PaperMod
@@ -7,22 +7,23 @@ enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
 buildExpired: false
+enableEmoji: true
 
 minify:
   disableXML: true
-  minifyOutput: true
+    #  minifyOutput: true
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: ExampleSite
   description: "ExampleSite description"
   keywords: [Blog, Portfolio, PaperMod]
-  author: Me
+  author: joshua
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
   defaultTheme: auto # dark, light
-  disableThemeToggle: false
+    #  disableThemeToggle: false
 
   ShowReadingTime: true
   ShowShareButtons: true
