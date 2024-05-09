@@ -73,7 +73,7 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Hi there \U0001F44B"
-    Content: hello.
+    Content: 이번 생은 틀려먹었어도 다음 생은 유용할지 몰라 혹시나 하는 마음에 남겨두는 전생메모
 
   socialIcons:
     - name: x
