@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>First on MY TIL CHALLENGE</title>
-    <link>http://localhost:1313/tags/first/</link>
+    <link>https://examplesite.com/tags/first/</link>
     <description>Recent content in First on MY TIL CHALLENGE</description>
     <image>
       <title>MY TIL CHALLENGE</title>
-      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.125.6</generator>
     <language>en</language>
     <lastBuildDate>Thu, 09 May 2024 05:15:20 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/first/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://examplesite.com/tags/first/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Test</title>
-      <link>http://localhost:1313/post/test/</link>
+      <link>https://examplesite.com/post/test/</link>
       <pubDate>Thu, 09 May 2024 05:15:20 +0900</pubDate>
-      <guid>http://localhost:1313/post/test/</guid>
-      <description>테스트 입니다. 1. 마크다운 1) 확인중 </description>
+      <guid>https://examplesite.com/post/test/</guid>
+      <description>Desc Text.</description>
     </item>
   </channel>
 </rss>
