@@ -1,7 +1,7 @@
 ---
 title: 'Start'
 date: 2024-05-11T19:38:24+09:00
-# weight: 1
+weight: 1
 # aliases: ["/first"]
 tags: ["view", "opinion"]
 author: "berry"
