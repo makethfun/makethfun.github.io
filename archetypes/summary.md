@@ -3,14 +3,14 @@ title: '{{ replace .File.ContentBaseName "-" " " | title }}'
 date: {{ .Date }}
 # weight: 1
 # aliases: ["/first"]
-tags: ["first"]
+tags: ["summary"]
 author: "berry"
 # author: ["Me", "You"] # multiple authors
 showToc: true
 TocOpen: false
 draft: false            # want to draft : true
 hidemeta: false
-comments: false
+comments: true
 description: "Desc Text."
 canonicalURL: "https://canonical.url/to/page"
 disableHLJS: true # to disable highlightjs

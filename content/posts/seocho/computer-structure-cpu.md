@@ -1,14 +1,14 @@
 ---
-title: '{{ replace .File.ContentBaseName "-" " " | title }}'
-date: {{ .Date }}
+title: 'Computer Structure Cpu'
+date: 2024-05-11T20:07:29+09:00
 # weight: 1
 # aliases: ["/first"]
-tags: ["first"]
+tags: ["에이블런", "서초구 4차 산업 소프트웨어 과정", "TIL", "Today I Learned"]
 author: "berry"
 # author: ["Me", "You"] # multiple authors
 showToc: true
 TocOpen: false
-draft: false            # want to draft : true
+draft: true             # want to draft : true
 hidemeta: false
 comments: false
 description: "Desc Text."

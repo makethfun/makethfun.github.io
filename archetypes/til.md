@@ -1,12 +1,14 @@
 ---
-title: 'Test'
-date: 2024-05-09T05:15:20+09:00
-author: 'berry'
-tags: ["first"]
+title: '{{ replace .File.ContentBaseName "-" " " | title }}'
+date: {{ .Date }}
+# weight: 1
+# aliases: ["/first"]
+tags: ["에이블런", "서초구 4차 산업 소프트웨어 과정", "TIL", "Today I Learned"]
+author: "berry"
+# author: ["Me", "You"] # multiple authors
 showToc: true
 TocOpen: false
-draft: false
-
+draft: false            # want to draft : true
 hidemeta: false
 comments: false
 description: "Desc Text."
@@ -29,12 +31,7 @@ cover:
     relative: false # when using page bundles set this to true
     hidden: true # only hide on current single page
 editPost:
-    URL: "https://github.com/<path_to_repo>/content"
+    URL: "https://github.com/makethfun/content"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 ---
-
-# 테스트 입니다.
-## 1. 마크다운
-### 1) 확인중
-
