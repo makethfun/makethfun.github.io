@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>서초구 4차 산업 소프트웨어 과정 on MY TIL CHALLENGE</title>
+    <link>http://localhost:1313/tags/%EC%84%9C%EC%B4%88%EA%B5%AC-4%EC%B0%A8-%EC%82%B0%EC%97%85-%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4-%EA%B3%BC%EC%A0%95/</link>
+    <description>Recent content in 서초구 4차 산업 소프트웨어 과정 on MY TIL CHALLENGE</description>
+    <image>
+      <title>MY TIL CHALLENGE</title>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.125.6</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 11 May 2024 18:34:56 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/%EC%84%9C%EC%B4%88%EA%B5%AC-4%EC%B0%A8-%EC%82%B0%EC%97%85-%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4-%EA%B3%BC%EC%A0%95/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Computer Architecture Cpu</title>
+      <link>http://localhost:1313/posts/seocho/computer-architecture-cpu/</link>
+      <pubDate>Sat, 11 May 2024 18:34:56 +0900</pubDate>
+      <guid>http://localhost:1313/posts/seocho/computer-architecture-cpu/</guid>
+      <description>Desc Text.</description>
+    </item>
+  </channel>
+</rss>
