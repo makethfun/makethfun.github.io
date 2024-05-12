@@ -6,14 +6,14 @@
     <description>Recent content in 서초구 4차 산업 소프트웨어 과정 on MY TIL CHALLENGE</description>
     <generator>Hugo -- 0.125.6</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 13 May 2024 05:32:52 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 13 May 2024 05:39:24 +0900</lastBuildDate>
     <atom:link href="https://makethfun.github.io/tags/%EC%84%9C%EC%B4%88%EA%B5%AC-4%EC%B0%A8-%EC%82%B0%EC%97%85-%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4-%EA%B3%BC%EC%A0%95/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Computer Structure</title>
-      <link>https://makethfun.github.io/posts/seocho/computer-structure/</link>
-      <pubDate>Mon, 13 May 2024 05:32:52 +0900</pubDate>
-      <guid>https://makethfun.github.io/posts/seocho/computer-structure/</guid>
-      <description>Desc Text.</description>
+      <title>[TIL] Computer Structure</title>
+      <link>https://makethfun.github.io/posts/seocho/til-computer-structure/</link>
+      <pubDate>Mon, 13 May 2024 05:39:24 +0900</pubDate>
+      <guid>https://makethfun.github.io/posts/seocho/til-computer-structure/</guid>
+      <description>컴퓨터 구조와 메모리</description>
     </item>
   </channel>
 </rss>

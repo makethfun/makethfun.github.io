@@ -6,14 +6,14 @@
     <description>Recent content in 에이블런 on MY TIL CHALLENGE</description>
     <generator>Hugo -- 0.125.6</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 13 May 2024 05:32:52 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 13 May 2024 05:39:24 +0900</lastBuildDate>
     <atom:link href="https://makethfun.github.io/tags/%EC%97%90%EC%9D%B4%EB%B8%94%EB%9F%B0/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Computer Structure</title>
-      <link>https://makethfun.github.io/posts/seocho/computer-structure/</link>
-      <pubDate>Mon, 13 May 2024 05:32:52 +0900</pubDate>
-      <guid>https://makethfun.github.io/posts/seocho/computer-structure/</guid>
-      <description>Desc Text.</description>
+      <title>[TIL] Computer Structure</title>
+      <link>https://makethfun.github.io/posts/seocho/til-computer-structure/</link>
+      <pubDate>Mon, 13 May 2024 05:39:24 +0900</pubDate>
+      <guid>https://makethfun.github.io/posts/seocho/til-computer-structure/</guid>
+      <description>컴퓨터 구조와 메모리</description>
     </item>
   </channel>
 </rss>
