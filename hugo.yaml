@@ -8,7 +8,6 @@ buildDrafts: false
 buildFuture: false
 buildExpired: false
 enableEmoji: true
-mainSections: ["posts", "view", "seocho", "summary"]
 
 minify:
   disableXML:
@@ -43,6 +42,10 @@ params:
   hideSummary: false
   showtoc: false
   tocopen: false
+  mainSections:
+    - posts
+    - seocho
+    - view
 
   assets:
     # disableHLJS: true # to disable highlight.js
