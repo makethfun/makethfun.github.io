@@ -1,7 +1,7 @@
 ---
-title: 'Computer Structure'
-date: 2024-05-13T05:32:52+09:00
-# weight: 1
+title: '[TIL] Computer Structure'
+date: 2024-05-13T05:39:24+09:00
+weight: 1
 # aliases: ["/first"]
 categories: ["seocho"]
 tags: ["에이블런", "서초구 4차 산업 소프트웨어 과정", "TIL", "Today I Learned"]
@@ -9,10 +9,10 @@ author: "berry"
 # author: ["Me", "You"] # multiple authors
 showToc: true
 TocOpen: false
-draft: false            # want to draft : true
+draft: true            # want to draft : true
 hidemeta: false
 comments: false
-description: "Desc Text."
+description: "컴퓨터 구조와 메모리"
 canonicalURL: "https://canonical.url/to/page"
 disableHLJS: true # to disable highlightjs
 disableShare: false
@@ -33,21 +33,21 @@ UseHugoToc: true
 #     hidden: true # only hide on current single page
 editPost:
     URL: "https://github.com/makethfun/content"
-    Text: "Suggest Changes" # edit text
+    Text: "1st week til challenge" # edit text
     appendFilePath: true # to append file path to Edit link
 ---
 
-![computer-structure](/assets/seocho/cumputer-structure.png)
+![computer-structure](/image/seocho/cumputer-structure.png)
 
 # Today, I learned :grin:
 
 ## 1. CPU
 
-### 1) ALU
+### 1) ALU(Arithmetic & Logical Unit)
 
 Arithmetic(사칙연산)과 Logical(and, or, xor등 논리회로) 연산 유닛
 
-### 2) CU
+### 2) CU(Control Unit)
 
 연결된 입출력장치와 통신하는 시스템 제어 유닛
 
