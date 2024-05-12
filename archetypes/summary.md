@@ -3,6 +3,7 @@ title: '{{ replace .File.ContentBaseName "-" " " | title }}'
 date: {{ .Date }}
 # weight: 1
 # aliases: ["/first"]
+categories: ["summary"]
 tags: ["summary"]
 author: "berry"
 # author: ["Me", "You"] # multiple authors
