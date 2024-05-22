@@ -6,8 +6,15 @@
     <description>Recent content in 에이블런 on MY TIL CHALLENGE</description>
     <generator>Hugo -- 0.125.6</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 13 May 2024 21:22:57 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 21 May 2024 09:51:55 +0900</lastBuildDate>
     <atom:link href="https://makethfun.github.io/tags/%EC%97%90%EC%9D%B4%EB%B8%94%EB%9F%B0/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[TIL] Nvm</title>
+      <link>https://makethfun.github.io/posts/seocho/til-nvm/</link>
+      <pubDate>Tue, 21 May 2024 09:51:17 +0900</pubDate>
+      <guid>https://makethfun.github.io/posts/seocho/til-nvm/</guid>
+      <description>node version manager</description>
+    </item>
     <item>
       <title>[TIL] Git</title>
       <link>https://makethfun.github.io/posts/seocho/til-git/</link>
@@ -21,6 +28,13 @@
       <pubDate>Mon, 13 May 2024 05:39:24 +0900</pubDate>
       <guid>https://makethfun.github.io/posts/seocho/til-computer-structure/</guid>
       <description>컴퓨터 구조와 메모리</description>
+    </item>
+    <item>
+      <title>[TIL] Js Variable Hoisting</title>
+      <link>https://makethfun.github.io/posts/seocho/til-js-variable-hoisting/</link>
+      <pubDate>Tue, 21 May 2024 09:51:55 +0900</pubDate>
+      <guid>https://makethfun.github.io/posts/seocho/til-js-variable-hoisting/</guid>
+      <description>Desc Text.</description>
     </item>
   </channel>
 </rss>
