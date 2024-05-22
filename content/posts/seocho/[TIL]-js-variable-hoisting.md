@@ -1,6 +1,6 @@
 ---
-title: '{{ replace .File.ContentBaseName "-" " " | title }}'
-date: {{ .Date }}
+title: '[TIL] Js Variable Hoisting'
+date: 2024-05-21T09:51:55+09:00
 # weight: 1
 # aliases: ["/first"]
 categories: ["seocho"]
