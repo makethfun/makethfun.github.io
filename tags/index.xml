@@ -6,8 +6,15 @@
     <description>Recent content in Tags on MY TIL CHALLENGE</description>
     <generator>Hugo -- 0.125.6</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 21 May 2024 09:51:55 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 27 May 2024 05:36:54 +0900</lastBuildDate>
     <atom:link href="https://makethfun.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Javascript</title>
+      <link>https://makethfun.github.io/tags/javascript/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://makethfun.github.io/tags/javascript/</guid>
+      <description></description>
+    </item>
     <item>
       <title>TIL</title>
       <link>https://makethfun.github.io/tags/til/</link>
@@ -23,6 +30,13 @@
       <description></description>
     </item>
     <item>
+      <title>Variable</title>
+      <link>https://makethfun.github.io/tags/variable/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://makethfun.github.io/tags/variable/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>서초구 4차 산업 소프트웨어 과정</title>
       <link>https://makethfun.github.io/tags/%EC%84%9C%EC%B4%88%EA%B5%AC-4%EC%B0%A8-%EC%82%B0%EC%97%85-%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4-%EA%B3%BC%EC%A0%95/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -34,6 +48,20 @@
       <link>https://makethfun.github.io/tags/%EC%97%90%EC%9D%B4%EB%B8%94%EB%9F%B0/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://makethfun.github.io/tags/%EC%97%90%EC%9D%B4%EB%B8%94%EB%9F%B0/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Devtip</title>
+      <link>https://makethfun.github.io/tags/devtip/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://makethfun.github.io/tags/devtip/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hoisting</title>
+      <link>https://makethfun.github.io/tags/hoisting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://makethfun.github.io/tags/hoisting/</guid>
       <description></description>
     </item>
     <item>

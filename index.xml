@@ -6,8 +6,22 @@
     <description>Recent content on MY TIL CHALLENGE</description>
     <generator>Hugo -- 0.125.6</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 21 May 2024 09:51:55 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 27 May 2024 05:36:54 +0900</lastBuildDate>
     <atom:link href="https://makethfun.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[TIL] Js Variable Type</title>
+      <link>https://makethfun.github.io/posts/seocho/til-js-variable-type/</link>
+      <pubDate>Mon, 27 May 2024 05:36:54 +0900</pubDate>
+      <guid>https://makethfun.github.io/posts/seocho/til-js-variable-type/</guid>
+      <description>variable type</description>
+    </item>
+    <item>
+      <title>[TIL] Js Variable Hoisting</title>
+      <link>https://makethfun.github.io/posts/seocho/til-js-variable-hoisting/</link>
+      <pubDate>Tue, 21 May 2024 09:51:55 +0900</pubDate>
+      <guid>https://makethfun.github.io/posts/seocho/til-js-variable-hoisting/</guid>
+      <description>javascript hoisting</description>
+    </item>
     <item>
       <title>[TIL] Nvm</title>
       <link>https://makethfun.github.io/posts/seocho/til-nvm/</link>
@@ -37,10 +51,17 @@
       <description>Prologue</description>
     </item>
     <item>
-      <title>[TIL] Js Variable Hoisting</title>
-      <link>https://makethfun.github.io/posts/seocho/til-js-variable-hoisting/</link>
-      <pubDate>Tue, 21 May 2024 09:51:55 +0900</pubDate>
-      <guid>https://makethfun.github.io/posts/seocho/til-js-variable-hoisting/</guid>
+      <title>[Vscode] Shortcuts</title>
+      <link>https://makethfun.github.io/posts/devtip/vscode-shortcuts/</link>
+      <pubDate>Thu, 23 May 2024 04:42:54 +0900</pubDate>
+      <guid>https://makethfun.github.io/posts/devtip/vscode-shortcuts/</guid>
+      <description>Desc Text.</description>
+    </item>
+    <item>
+      <title>[TIL] Js Destructuring Assignment</title>
+      <link>https://makethfun.github.io/posts/seocho/til-js-destructuring-assignment/</link>
+      <pubDate>Thu, 23 May 2024 04:36:38 +0900</pubDate>
+      <guid>https://makethfun.github.io/posts/seocho/til-js-destructuring-assignment/</guid>
       <description>Desc Text.</description>
     </item>
   </channel>
