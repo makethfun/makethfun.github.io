@@ -1,10 +1,10 @@
 ---
-title: '[TIL] Js Variable Hoisting'
-date: 2024-05-21T09:51:55+09:00
+title: '{{ replace .File.ContentBaseName "-" " " | title }}'
+date: {{ .Date }}
 # weight: 1
 # aliases: ["/first"]
-categories: ["seocho"]
-tags: ["에이블런", "서초구 4차 산업 소프트웨어 과정", "TIL", "Today I Learned"]
+categories: ["devtip"]
+tags: ["devtip"]
 author: "berry"
 # author: ["Me", "You"] # multiple authors
 showToc: true
@@ -25,15 +25,14 @@ ShowPostNavLinks: true
 ShowWordCount: false
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true
-# cover:
-#     image: "<image path/url>" # image path/url
-#     alt: "<alt text>" # alt text
-#     caption: "<text>" # display caption under cover
-#     relative: false # when using page bundles set this to true
-#     hidden: true # only hide on current single page
+cover:
+    image: "<image path/url>" # image path/url
+    alt: "<alt text>" # alt text
+    caption: "<text>" # display caption under cover
+    relative: false # when using page bundles set this to true
+    hidden: true # only hide on current single page
 editPost:
     URL: "https://github.com/makethfun/content"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 ---
-

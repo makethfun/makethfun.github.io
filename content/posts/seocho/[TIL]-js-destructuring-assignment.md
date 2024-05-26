@@ -1,6 +1,6 @@
 ---
-title: '[TIL] Js Variable Hoisting'
-date: 2024-05-21T09:51:55+09:00
+title: '[TIL] Js Destructuring Assignment'
+date: 2024-05-23T04:36:38+09:00
 # weight: 1
 # aliases: ["/first"]
 categories: ["seocho"]
@@ -37,3 +37,8 @@ editPost:
     appendFilePath: true # to append file path to Edit link
 ---
 
+> # Today, I learned :grin:
+
+> # Want to more about :sob:
+
+> # ref :link:
