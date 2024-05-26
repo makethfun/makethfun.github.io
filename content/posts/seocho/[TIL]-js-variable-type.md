@@ -80,10 +80,10 @@ console.log(copy) 				// 100
 let obj = {cnt: 100}
 
 let refOjb = obj;
-obj.count = 99;
+obj.cnt = 80;
 
-console.log(obj.count);
-console.log(refObj.count);
+console.log(obj.cnt);           // 80
+console.log(refObj.cnt);        // 80
 ```
 
 ## 3. typeof
