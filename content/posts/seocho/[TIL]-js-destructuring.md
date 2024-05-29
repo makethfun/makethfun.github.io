@@ -1,15 +1,15 @@
 ---
 title: '[TIL] Js Destructuring'
 date: 2024-05-29T17:18:21+09:00
-# weight: 1
+weight: 1
 # aliases: ["/first"]
 categories: ["seocho"]
-tags: ["에이블런", "서초구 4차 산업 소프트웨어 과정", "TIL", "Today I Learned"]
+tags: ["에이블런", "서초구 4차 산업 소프트웨어 과정", "TIL", "Today I Learned", destructuring]
 author: "berry"
 # author: ["Me", "You"] # multiple authors
 showToc: true
 TocOpen: false
-draft: false            # want to draft : true
+draft: true            # want to draft : true
 hidemeta: false
 comments: false
 description: "Desc Text."
