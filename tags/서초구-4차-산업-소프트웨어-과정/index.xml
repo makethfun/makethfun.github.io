@@ -9,6 +9,13 @@
     <lastBuildDate>Wed, 29 May 2024 17:18:21 +0900</lastBuildDate>
     <atom:link href="https://makethfun.github.io/tags/%EC%84%9C%EC%B4%88%EA%B5%AC-4%EC%B0%A8-%EC%82%B0%EC%97%85-%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4-%EA%B3%BC%EC%A0%95/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>[TIL] Js Destructuring</title>
+      <link>https://makethfun.github.io/posts/seocho/til-js-destructuring/</link>
+      <pubDate>Wed, 29 May 2024 17:18:21 +0900</pubDate>
+      <guid>https://makethfun.github.io/posts/seocho/til-js-destructuring/</guid>
+      <description>Desc Text.</description>
+    </item>
+    <item>
       <title>[TIL] Js [Quiz 0523] Destructuring</title>
       <link>https://makethfun.github.io/posts/seocho/til-js-quiz-0523-destructuring/</link>
       <pubDate>Mon, 27 May 2024 06:19:18 +0900</pubDate>
@@ -56,13 +63,6 @@
       <pubDate>Mon, 13 May 2024 05:39:24 +0900</pubDate>
       <guid>https://makethfun.github.io/posts/seocho/til-computer-structure/</guid>
       <description>컴퓨터 구조와 메모리</description>
-    </item>
-    <item>
-      <title>[TIL] Js Destructuring</title>
-      <link>https://makethfun.github.io/posts/seocho/til-js-destructuring/</link>
-      <pubDate>Wed, 29 May 2024 17:18:21 +0900</pubDate>
-      <guid>https://makethfun.github.io/posts/seocho/til-js-destructuring/</guid>
-      <description>Desc Text.</description>
     </item>
     <item>
       <title>[TIL] Js Destructuring Assignment</title>
