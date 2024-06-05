@@ -6,8 +6,22 @@
     <description>Recent content in Posts on MY TIL CHALLENGE</description>
     <generator>Hugo -- 0.125.6</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 29 May 2024 17:18:21 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 05 Jun 2024 16:46:30 +0900</lastBuildDate>
     <atom:link href="https://makethfun.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[TIL] Js [Quiz 0602] Array</title>
+      <link>https://makethfun.github.io/posts/seocho/til-js-quiz-0602-array/</link>
+      <pubDate>Wed, 05 Jun 2024 16:46:30 +0900</pubDate>
+      <guid>https://makethfun.github.io/posts/seocho/til-js-quiz-0602-array/</guid>
+      <description>Desc Text.</description>
+    </item>
+    <item>
+      <title>[TIL] Js Npmjs Publish</title>
+      <link>https://makethfun.github.io/posts/seocho/til-js-npmjs-publish/</link>
+      <pubDate>Wed, 05 Jun 2024 16:38:19 +0900</pubDate>
+      <guid>https://makethfun.github.io/posts/seocho/til-js-npmjs-publish/</guid>
+      <description>publish private packages</description>
+    </item>
     <item>
       <title>[TIL] Js Destructuring</title>
       <link>https://makethfun.github.io/posts/seocho/til-js-destructuring/</link>
@@ -70,6 +84,13 @@
       <pubDate>Sat, 11 May 2024 19:38:24 +0900</pubDate>
       <guid>https://makethfun.github.io/posts/view/start/</guid>
       <description>Prologue</description>
+    </item>
+    <item>
+      <title>[TIL] Js Async Await</title>
+      <link>https://makethfun.github.io/posts/seocho/til-js-async-await/</link>
+      <pubDate>Wed, 05 Jun 2024 16:38:46 +0900</pubDate>
+      <guid>https://makethfun.github.io/posts/seocho/til-js-async-await/</guid>
+      <description>Desc Text.</description>
     </item>
     <item>
       <title>[Vscode] Shortcuts</title>

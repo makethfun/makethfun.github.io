@@ -164,6 +164,51 @@ onload="renderMathInElement(document.body);"></script>
 
 <article class="post-entry tag-entry"> 
   <header class="entry-header">
+    <h2 class="entry-hint-parent">[TIL] Js Variable Type
+      <span class="entry-hint" title="Draft">
+        <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" fill="currentColor">
+          <path
+            d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
+        </svg>
+      </span>
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Today, I learned 😁 JS의 원시타입은 stack, 참조타입은 heap에 저장됨
+1. Primitive Type 각 변수들의 primitive value를 복사할 경우 데이터 값이 복사됨
+변수 할당 시 메모리에 고정된 크기로 저장(Stack)
+값에 대한 정의가 바뀌지 않는 불변성(immutable)
+변수에 저장된 값(메모리)에 직접 접근할 수 있음
+call by value
+종류 : String, Number, Boolean, undefined, null, Symbol
+Number : 32비트 안의 숫자값 SMI(Small Integer)는 stack에 저장, SMI 형식에 맞지 않는 숫자들은 heap에 저장
+// 할당 된 데이터 값을 복사함 let score = 100; // 처음 x를 할당한 y의 값이 변하지 않음 let copy = x; score = 80; console....</p>
+  </div>
+  <footer class="entry-footer"><span title='2024-05-27 05:36:54 +0900 KST'>May 27, 2024</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;berry</footer>
+  <a class="entry-link" aria-label="post link to [TIL] Js Variable Type" href="https://makethfun.github.io/posts/seocho/til-js-variable-type/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">[TIL] Js Variable Hoisting
+      <span class="entry-hint" title="Draft">
+        <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" fill="currentColor">
+          <path
+            d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
+        </svg>
+      </span>
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Today, I learned 😁 1. var 함수의 코드 블록만을 스코프로 인정함. 함수 외부의 변수는 모두 전역변수가 되고 이는 변수의 중복 선언으로 의도치 않은 변수값 변경이 일어날 수 있음. 이를 위해 let과 const를 도입.
+대부분 언어는 block-level scope를 따르지만 자바스크립트는 function-level scope를 따름. function-level scope : 함수 내에서 선언된 변수는 함수 내에서만 유효함. 함수 내부에서 선언된 변수는 지역변수이며 외부에서 선언된 변수는 모두 전역 변수이다. block-level scope : 모든 코드블록(함수, if문, for문, while문, try/catch문 등) 내에서 선언된 변수는 코드 블록 내에서만 유효하고, 코드블록 외부에서 참조할 수 없음....</p>
+  </div>
+  <footer class="entry-footer"><span title='2024-05-21 09:51:55 +0900 KST'>May 21, 2024</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;berry</footer>
+  <a class="entry-link" aria-label="post link to [TIL] Js Variable Hoisting" href="https://makethfun.github.io/posts/seocho/til-js-variable-hoisting/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
     <h2 class="entry-hint-parent">[TIL] Nvm
       <span class="entry-hint" title="Draft">
         <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" fill="currentColor">
@@ -222,22 +267,12 @@ PC(Program Couter) : 메모리에서 가져올 (현재 or 다음) 명령어 주�
   <footer class="entry-footer"><span title='2024-05-13 05:39:24 +0900 KST'>May 13, 2024</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;berry</footer>
   <a class="entry-link" aria-label="post link to [TIL] Computer Structure" href="https://makethfun.github.io/posts/seocho/til-computer-structure/"></a>
 </article>
-
-<article class="post-entry tag-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">[TIL] Js Destructuring Assignment
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p> Today, I learned 😁 Want to more about 😭 ref 🔗 </p>
-  </div>
-  <footer class="entry-footer"><span title='2024-05-23 04:36:38 +0900 KST'>May 23, 2024</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;berry</footer>
-  <a class="entry-link" aria-label="post link to [TIL] Js Destructuring Assignment" href="https://makethfun.github.io/posts/seocho/til-js-destructuring-assignment/"></a>
-</article>
 <footer class="page-footer">
   <nav class="pagination">
     <a class="prev" href="https://makethfun.github.io/tags/til/">
       «&nbsp;Prev&nbsp;
+    </a>
+    <a class="next" href="https://makethfun.github.io/tags/til/page/3/">Next&nbsp;&nbsp;»
     </a>
   </nav>
 </footer>
