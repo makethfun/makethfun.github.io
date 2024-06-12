@@ -6,8 +6,15 @@
     <description>Recent content in Seocho on MY TIL CHALLENGE</description>
     <generator>Hugo -- 0.125.6</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 05 Jun 2024 16:46:30 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 12 Jun 2024 16:52:17 +0900</lastBuildDate>
     <atom:link href="https://makethfun.github.io/categories/seocho/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[TIL] Tailwindcss Install</title>
+      <link>https://makethfun.github.io/posts/seocho/til-tailwindcss-install/</link>
+      <pubDate>Wed, 12 Jun 2024 16:52:17 +0900</pubDate>
+      <guid>https://makethfun.github.io/posts/seocho/til-tailwindcss-install/</guid>
+      <description>Desc Text.</description>
+    </item>
     <item>
       <title>[TIL] Js [Quiz 0602] Array</title>
       <link>https://makethfun.github.io/posts/seocho/til-js-quiz-0602-array/</link>
