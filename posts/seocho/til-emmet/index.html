@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>[TIL] Emmet | MY TIL CHALLENGE</title>
+<meta name="keywords" content="에이블런, 서초구 4차 산업 소프트웨어 과정, TIL, Today I Learned">
+<meta name="description" content="Desc Text.">
+<meta name="author" content="berry">
+<link rel="canonical" href="https://canonical.url/to/page">
+<meta name="google-site-verification" content="XYZabc">
+<meta name="yandex-verification" content="XYZabc">
+<meta name="msvalidate.01" content="XYZabc">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.b609c58d5c11bb90b1a54e04005d74ad1ddf22165eb79f5533967e57df9c3b50.css" integrity="sha256-tgnFjVwRu5CxpU4EAF10rR3fIhZet59VM5Z&#43;V9&#43;cO1A=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://makethfun.github.io/%3Clink%20/%20abs%20url%3E">
+<link rel="icon" type="image/png" sizes="16x16" href="https://makethfun.github.io/%3Clink%20/%20abs%20url%3E">
+<link rel="icon" type="image/png" sizes="32x32" href="https://makethfun.github.io/%3Clink%20/%20abs%20url%3E">
+<link rel="apple-touch-icon" href="https://makethfun.github.io/%3Clink%20/%20abs%20url%3E">
+<link rel="mask-icon" href="https://makethfun.github.io/%3Clink%20/%20abs%20url%3E">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="https://makethfun.github.io/posts/seocho/til-emmet/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js" integrity="sha384-g7c+Jr9ZivxKLnZTDUhnkOnsh30B4H0rpLUpJ4jAIKs4fnJI+sEnkvrMWph2EDg4" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/contrib/auto-render.min.js" integrity="sha384-mll67QQFJfxn0IYznZYonOWZ644AWYC+Pt2cHqMaRhXVrursRwvLnLaebdGIlYNa" crossorigin="anonymous"
+onload="renderMathInElement(document.body);"></script>
+
+
+>
+
+  
+
+<meta property="og:title" content="[TIL] Emmet" />
+<meta property="og:description" content="Desc Text." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://makethfun.github.io/posts/seocho/til-emmet/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2024-06-19T16:53:42+09:00" />
+<meta property="article:modified_time" content="2024-06-19T16:53:42+09:00" /><meta property="og:site_name" content="ExampleSite" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="[TIL] Emmet"/>
+<meta name="twitter:description" content="Desc Text."/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://makethfun.github.io/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "[TIL] Emmet",
+      "item": "https://makethfun.github.io/posts/seocho/til-emmet/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "[TIL] Emmet",
+  "name": "[TIL] Emmet",
+  "description": "Desc Text.",
+  "keywords": [
+    "에이블런", "서초구 4차 산업 소프트웨어 과정", "TIL", "Today I Learned"
+  ],
+  "articleBody": " Today, I learned 😁 Emmet 문법 1. html:5 생성 # html 생성 명령어 html:5 2. 구조화하기 1) 자식요소 \u003e a. \u003e를 사용하여 자식요소 생성\n# div 안의 ul 안의 li div\u003eul\u003eli b. 결과\n\u003cdiv\u003e \u003cul\u003e \u003cli\u003e\u003c/li\u003e \u003cul\u003e \u003cdiv\u003e\u003c/div\u003e \u003c/ul\u003e \u003c/ul\u003e \u003c/div\u003e 2) 형제요소 + a. +를 사용하여 형제요소 생성 - 같은 단계의 태그\n# div, p, bq 태그 생성 div+p+bq b. 결과\n\u003cdiv\u003e\u003c/div\u003e \u003cp\u003e\u003c/p\u003e \u003cblockquote\u003e\u003c/blockquote\u003e 3) 한단계 위 ^ a. ^를 사용하여 한단계 위 태그 생성\n# div 두개 만들고 안에 p와 bq태그 생성, p 안에 span과 em태그 만들기 div+div\u003ep\u003espan+em^bq b. 결과\n\u003cdiv\u003e\u003c/div\u003e \u003cdiv\u003e \u003cp\u003e \u003cspan\u003e\u003c/span\u003e \u003cem\u003e\u003c/em\u003e \u003c/p\u003e \u003cblockquote\u003e\u003c/blockquote\u003e \u003c/div\u003e 3. 태그 연산 1) 갯수 만큼 만들기 * a. *를 사용하여 갯수 만큼 태그 만들기\n# ul 안에 li태그 5개 만들기 ul\u003eli*5 b. 결과\n\u003cul\u003e \u003cli\u003e\u003c/li\u003e \u003cli\u003e\u003c/li\u003e \u003cli\u003e\u003c/li\u003e \u003cli\u003e\u003c/li\u003e \u003cli\u003e\u003c/li\u003e \u003c/ul\u003e 2) 그룹 () a. ()를 사용하여 태그끼리 묶기\n# div안에 header와 footer를 만들고 header안에 ul, li 2개, a태그, ㄹooter 안에 p 태그만들기 div\u003e(header\u003eul\u003eli*2\u003ea)+footer\u003ep b. 결과\n\u003cdiv\u003e \u003cheader\u003e \u003cul\u003e \u003cli\u003e\u003ca href=\"\"\u003e\u003c/a\u003e\u003c/li\u003e \u003cli\u003e\u003ca href=\"\"\u003e\u003c/a\u003e\u003c/li\u003e \u003c/ul\u003e \u003c/header\u003e \u003cfooter\u003e \u003cp\u003e\u003c/p\u003e \u003c/footer\u003e \u003c/div\u003e 3. 속성 - attribute 1) id, class 태그 #, . a. #를 사용하여 id, .을 사용하여 class 만들기\n# id가 header인 div, class가 page인 div, id가 footer이고 class가 class1, 2, 3인 div만들기 div#header+div.page+div#footer.class1.class2.class3 b. 결과\n\u003cdiv id=\"header\"\u003e\u003c/div\u003e \u003cdiv class=\"page\"\u003e\u003c/div\u003e \u003cdiv id=\"footer\" class=\"class1 class2 class3\"\u003e\u003c/div\u003e 2) custom 속성 만들기 [] a. []를 사용하여 속성 만들어주기\n# title이 hellow world, colspan이 3인 td 만들기 td[title=\"Hello world!\" colspan=3] # 속성이름만 명시해줘도 됨 td[colspan title] b. 결과\n\u003ctd title=\"Hello world!\" colspan=\"3\"\u003e\u003c/td\u003e \u003ctd colspan=\"\" title=\"\"\u003e\u003c/td\u003e 3) 아이템 넘버링과 순서, 시작값 넘버링 $ 순서 @, 역순 @- 시작값 @ a. $를 사용하여 넘버링 / @- 시작값과 역순 넘버링\n# ul안에 item을 클래스로 갖는 리스트 5개 생성 ul\u003eli.item$*5 # ul안에 item을 클래스로 갖고, 클래스명 3부터 4개 역순으로 생성 ul\u003eli.item$@-3*4 b. 결과\n\u003cul\u003e \u003cli class=\"item1\"\u003e\u003c/li\u003e \u003cli class=\"item2\"\u003e\u003c/li\u003e \u003cli class=\"item3\"\u003e\u003c/li\u003e \u003cli class=\"item4\"\u003e\u003c/li\u003e \u003cli class=\"item5\"\u003e\u003c/li\u003e \u003c/ul\u003e \u003cul\u003e \u003cli class=\"item6\"\u003e\u003c/li\u003e \u003cli class=\"item5\"\u003e\u003c/li\u003e \u003cli class=\"item4\"\u003e\u003c/li\u003e \u003cli class=\"item3\"\u003e\u003c/li\u003e \u003c/ul\u003e 4) elements에 text넣기 {} a. {}를 사용하여 elements에 텍스트 추가\n# p태그 안에 Click 텍스트 아래 a 태그 안에 here 텍스트, to continue 텍스트 p\u003e{Click}+a{here}+{to continue} b. 결과\n\u003cp\u003eClick\u003ca href=\"\"\u003ehere\u003c/a\u003eto continue\u003c/p\u003e Want to more about 😭 ref 🔗 emmet syntax ",
+  "wordCount" : "375",
+  "inLanguage": "en",
+  "datePublished": "2024-06-19T16:53:42+09:00",
+  "dateModified": "2024-06-19T16:53:42+09:00",
+  "author":{
+    "@type": "Person",
+    "name": "berry"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://makethfun.github.io/posts/seocho/til-emmet/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "MY TIL CHALLENGE",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://makethfun.github.io/%3Clink%20/%20abs%20url%3E"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://makethfun.github.io/" accesskey="h" title="makethfun (Alt + H)">
+                <img src="https://makethfun.github.io/apple-touch-icon.png" alt="" aria-label="logo"
+                    height="35">makethfun</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://makethfun.github.io/archives/" title="Archives">
+                    <span>Archives</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://makethfun.github.io/categories/" title="Categories">
+                    <span>Categories</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://makethfun.github.io/tags/" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://makethfun.github.io/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="https://makethfun.github.io/">Home</a>&nbsp;»&nbsp;<a href="https://makethfun.github.io/posts/">Posts</a></div>
+    <h1 class="post-title entry-hint-parent">
+      [TIL] Emmet
+      <span class="entry-hint" title="Draft">
+        <svg xmlns="http://www.w3.org/2000/svg" height="35" viewBox="0 -960 960 960" fill="currentColor">
+          <path
+            d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
+        </svg>
+      </span>
+    </h1>
+    <div class="post-description">
+      Desc Text.
+    </div>
+    <div class="post-meta"><span title='2024-06-19 16:53:42 +0900 KST'>June 19, 2024</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;berry&nbsp;|&nbsp;<a href="https://github.com/makethfun/content/posts/seocho/[TIL]-emmet.md" rel="noopener noreferrer" target="_blank">Suggest Changes</a>
+
+</div>
+  </header> <div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Table of Contents</span>
+        </summary>
+
+        <div class="inner"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#1-html5-생성">1. <code>html:5</code> 생성</a></li>
+    <li><a href="#2-구조화하기">2. 구조화하기</a>
+      <ul>
+        <li><a href="#1-자식요소-">1) 자식요소 <code>&gt;</code></a></li>
+        <li><a href="#2-형제요소-">2) 형제요소 <code>+</code></a></li>
+        <li><a href="#3-한단계-위-">3) 한단계 위 <code>^</code></a></li>
+      </ul>
+    </li>
+    <li><a href="#3-태그-연산">3. 태그 연산</a>
+      <ul>
+        <li><a href="#1-갯수-만큼-만들기-">1) 갯수 만큼 만들기 <code>*</code></a></li>
+        <li><a href="#2-그룹-">2) 그룹 <code>()</code></a></li>
+      </ul>
+    </li>
+    <li><a href="#3-속성---attribute">3. 속성 - attribute</a>
+      <ul>
+        <li><a href="#1-id-class-태그--">1) id, class 태그 <code>#</code>, <code>.</code></a></li>
+        <li><a href="#2-custom-속성-만들기-">2) custom 속성 만들기 <code>[]</code></a></li>
+        <li><a href="#3-아이템-넘버링과-순서-시작값">3) 아이템 넘버링과 순서, 시작값</a></li>
+        <li><a href="#4-elements에-text넣기-">4) elements에 text넣기 <code>{}</code></a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><blockquote>
+<h1 id="today-i-learned-grin">Today, I learned &#x1f601;<a hidden class="anchor" aria-hidden="true" href="#today-i-learned-grin">#</a></h1>
+</blockquote>
+<h1 id="emmet-문법">Emmet 문법<a hidden class="anchor" aria-hidden="true" href="#emmet-문법">#</a></h1>
+<h2 id="1-html5-생성">1. <code>html:5</code> 생성<a hidden class="anchor" aria-hidden="true" href="#1-html5-생성">#</a></h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># html 생성 명령어</span>
+</span></span><span class="line"><span class="cl">html:5
+</span></span></code></pre></div><h2 id="2-구조화하기">2. 구조화하기<a hidden class="anchor" aria-hidden="true" href="#2-구조화하기">#</a></h2>
+<h3 id="1-자식요소-">1) 자식요소 <code>&gt;</code><a hidden class="anchor" aria-hidden="true" href="#1-자식요소-">#</a></h3>
+<p>a. <code>&gt;</code>를 사용하여 자식요소 생성</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># div 안의 ul 안의 li</span>
+</span></span><span class="line"><span class="cl">div&gt;ul&gt;li
+</span></span></code></pre></div><p>b. 결과</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">div</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">&lt;</span><span class="nt">ul</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">        <span class="p">&lt;</span><span class="nt">li</span><span class="p">&gt;&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">        <span class="p">&lt;</span><span class="nt">ul</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">            <span class="p">&lt;</span><span class="nt">div</span><span class="p">&gt;&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">        <span class="p">&lt;/</span><span class="nt">ul</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">&lt;/</span><span class="nt">ul</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+</span></span></code></pre></div><h3 id="2-형제요소-">2) 형제요소 <code>+</code><a hidden class="anchor" aria-hidden="true" href="#2-형제요소-">#</a></h3>
+<p>a. <code>+</code>를 사용하여 형제요소 생성 - 같은 단계의 태그</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># div, p, bq 태그 생성</span>
+</span></span><span class="line"><span class="cl">div+p+bq
+</span></span></code></pre></div><p>b. 결과</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">div</span><span class="p">&gt;&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">blockquote</span><span class="p">&gt;&lt;/</span><span class="nt">blockquote</span><span class="p">&gt;</span>
+</span></span></code></pre></div><h3 id="3-한단계-위-">3) 한단계 위 <code>^</code><a hidden class="anchor" aria-hidden="true" href="#3-한단계-위-">#</a></h3>
+<p>a. <code>^</code>를 사용하여 한단계 위 태그 생성</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># div 두개 만들고 안에 p와 bq태그 생성, p 안에 span과 em태그 만들기</span>
+</span></span><span class="line"><span class="cl">div+div&gt;p&gt;span+em^bq
+</span></span></code></pre></div><p>b. 결과</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">div</span><span class="p">&gt;&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">div</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">        <span class="p">&lt;</span><span class="nt">span</span><span class="p">&gt;&lt;/</span><span class="nt">span</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">        <span class="p">&lt;</span><span class="nt">em</span><span class="p">&gt;&lt;/</span><span class="nt">em</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">&lt;</span><span class="nt">blockquote</span><span class="p">&gt;&lt;/</span><span class="nt">blockquote</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+</span></span></code></pre></div><h2 id="3-태그-연산">3. 태그 연산<a hidden class="anchor" aria-hidden="true" href="#3-태그-연산">#</a></h2>
+<h3 id="1-갯수-만큼-만들기-">1) 갯수 만큼 만들기 <code>*</code><a hidden class="anchor" aria-hidden="true" href="#1-갯수-만큼-만들기-">#</a></h3>
+<p>a. <code>*</code>를 사용하여 갯수 만큼 태그 만들기</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># ul 안에 li태그 5개 만들기</span>
+</span></span><span class="line"><span class="cl">ul&gt;li*5
+</span></span></code></pre></div><p>b. 결과</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">ul</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">&lt;</span><span class="nt">li</span><span class="p">&gt;&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">&lt;</span><span class="nt">li</span><span class="p">&gt;&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">&lt;</span><span class="nt">li</span><span class="p">&gt;&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">&lt;</span><span class="nt">li</span><span class="p">&gt;&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">&lt;</span><span class="nt">li</span><span class="p">&gt;&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;/</span><span class="nt">ul</span><span class="p">&gt;</span>
+</span></span></code></pre></div><h3 id="2-그룹-">2) 그룹 <code>()</code><a hidden class="anchor" aria-hidden="true" href="#2-그룹-">#</a></h3>
+<p>a. <code>()</code>를 사용하여 태그끼리 묶기</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># div안에 header와 footer를 만들고 header안에 ul, li 2개, a태그, ㄹooter 안에 p 태그만들기</span>
+</span></span><span class="line"><span class="cl">div&gt;<span class="o">(</span>header&gt;ul&gt;li*2&gt;a<span class="o">)</span>+footer&gt;p
+</span></span></code></pre></div><p>b. 결과</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">div</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">&lt;</span><span class="nt">header</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">        <span class="p">&lt;</span><span class="nt">ul</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">            <span class="p">&lt;</span><span class="nt">li</span><span class="p">&gt;&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">&#34;&#34;</span><span class="p">&gt;&lt;/</span><span class="nt">a</span><span class="p">&gt;&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">            <span class="p">&lt;</span><span class="nt">li</span><span class="p">&gt;&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">&#34;&#34;</span><span class="p">&gt;&lt;/</span><span class="nt">a</span><span class="p">&gt;&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">        <span class="p">&lt;/</span><span class="nt">ul</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">&lt;/</span><span class="nt">header</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">&lt;</span><span class="nt">footer</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">        <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">&lt;/</span><span class="nt">footer</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+</span></span></code></pre></div><h2 id="3-속성---attribute">3. 속성 - attribute<a hidden class="anchor" aria-hidden="true" href="#3-속성---attribute">#</a></h2>
+<h3 id="1-id-class-태그--">1) id, class 태그 <code>#</code>, <code>.</code><a hidden class="anchor" aria-hidden="true" href="#1-id-class-태그--">#</a></h3>
+<p>a. <code>#</code>를 사용하여 id, <code>.</code>을 사용하여 class 만들기</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># id가 header인 div, class가 page인 div, id가 footer이고 class가 class1, 2, 3인 div만들기</span>
+</span></span><span class="line"><span class="cl">div#header+div.page+div#footer.class1.class2.class3
+</span></span></code></pre></div><p>b. 결과</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">div</span> <span class="na">id</span><span class="o">=</span><span class="s">&#34;header&#34;</span><span class="p">&gt;&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;page&#34;</span><span class="p">&gt;&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">div</span> <span class="na">id</span><span class="o">=</span><span class="s">&#34;footer&#34;</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;class1 class2 class3&#34;</span><span class="p">&gt;&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+</span></span></code></pre></div><h3 id="2-custom-속성-만들기-">2) custom 속성 만들기 <code>[]</code><a hidden class="anchor" aria-hidden="true" href="#2-custom-속성-만들기-">#</a></h3>
+<p>a. <code>[]</code>를 사용하여 속성 만들어주기</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># title이 hellow world, colspan이 3인 td 만들기</span>
+</span></span><span class="line"><span class="cl">td<span class="o">[</span><span class="nv">title</span><span class="o">=</span><span class="s2">&#34;Hello world!&#34;</span> <span class="nv">colspan</span><span class="o">=</span>3<span class="o">]</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 속성이름만 명시해줘도 됨</span>
+</span></span><span class="line"><span class="cl">td<span class="o">[</span>colspan title<span class="o">]</span>
+</span></span></code></pre></div><p>b. 결과</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">td</span> <span class="na">title</span><span class="o">=</span><span class="s">&#34;Hello world!&#34;</span> <span class="na">colspan</span><span class="o">=</span><span class="s">&#34;3&#34;</span><span class="p">&gt;&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">td</span> <span class="na">colspan</span><span class="o">=</span><span class="s">&#34;&#34;</span> <span class="na">title</span><span class="o">=</span><span class="s">&#34;&#34;</span><span class="p">&gt;&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
+</span></span></code></pre></div><h3 id="3-아이템-넘버링과-순서-시작값">3) 아이템 넘버링과 순서, 시작값<a hidden class="anchor" aria-hidden="true" href="#3-아이템-넘버링과-순서-시작값">#</a></h3>
+<ul>
+<li>넘버링 <code>$</code></li>
+<li>순서 <code>@</code>, 역순 <code>@-</code></li>
+<li>시작값 <code>@&lt;number&gt;</code></li>
+</ul>
+<p>a. <code>$</code>를 사용하여 넘버링 / <code>@-&lt;number&gt;</code> 시작값과 역순 넘버링</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># ul안에 item을 클래스로 갖는 리스트 5개 생성</span>
+</span></span><span class="line"><span class="cl">ul&gt;li.item<span class="nv">$*</span><span class="m">5</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># ul안에 item을 클래스로 갖고, 클래스명 3부터 4개 역순으로 생성</span>
+</span></span><span class="line"><span class="cl">ul&gt;li.item<span class="nv">$@</span>-3*4
+</span></span></code></pre></div><p>b. 결과</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl"><span class="c">&lt;!-- ul안에 item을 클래스로 갖는 리스트 5개 생성 --&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">ul</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">&lt;</span><span class="nt">li</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;item1&#34;</span><span class="p">&gt;&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">&lt;</span><span class="nt">li</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;item2&#34;</span><span class="p">&gt;&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">&lt;</span><span class="nt">li</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;item3&#34;</span><span class="p">&gt;&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">&lt;</span><span class="nt">li</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;item4&#34;</span><span class="p">&gt;&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">&lt;</span><span class="nt">li</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;item5&#34;</span><span class="p">&gt;&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;/</span><span class="nt">ul</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c">&lt;!-- ul안에 item을 클래스로 갖고, 클래스명 3부터 4개 역순으로 생성 --&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">ul</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">&lt;</span><span class="nt">li</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;item6&#34;</span><span class="p">&gt;&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">&lt;</span><span class="nt">li</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;item5&#34;</span><span class="p">&gt;&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">&lt;</span><span class="nt">li</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;item4&#34;</span><span class="p">&gt;&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">&lt;</span><span class="nt">li</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;item3&#34;</span><span class="p">&gt;&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;/</span><span class="nt">ul</span><span class="p">&gt;</span>
+</span></span></code></pre></div><h3 id="4-elements에-text넣기-">4) elements에 text넣기 <code>{}</code><a hidden class="anchor" aria-hidden="true" href="#4-elements에-text넣기-">#</a></h3>
+<p>a. <code>{}</code>를 사용하여 elements에 텍스트 추가</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># p태그 안에 Click 텍스트 아래 a 태그 안에 here 텍스트, to continue 텍스트</span>
+</span></span><span class="line"><span class="cl">p&gt;<span class="o">{</span>Click<span class="o">}</span>+a<span class="o">{</span>here<span class="o">}</span>+<span class="o">{</span>to <span class="k">continue</span><span class="o">}</span>
+</span></span></code></pre></div><p>b. 결과</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>Click<span class="p">&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">&#34;&#34;</span><span class="p">&gt;</span>here<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>to continue<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+</span></span></code></pre></div><blockquote>
+<h1 id="want-to-more-about-sob">Want to more about &#x1f62d;<a hidden class="anchor" aria-hidden="true" href="#want-to-more-about-sob">#</a></h1>
+</blockquote>
+<blockquote>
+<h1 id="ref-link">ref &#x1f517;<a hidden class="anchor" aria-hidden="true" href="#ref-link">#</a></h1>
+</blockquote>
+<ul>
+<li><a href="https://docs.emmet.io/abbreviations/syntax/">emmet syntax</a></li>
+</ul>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://makethfun.github.io/tags/%EC%97%90%EC%9D%B4%EB%B8%94%EB%9F%B0/">에이블런</a></li>
+      <li><a href="https://makethfun.github.io/tags/%EC%84%9C%EC%B4%88%EA%B5%AC-4%EC%B0%A8-%EC%82%B0%EC%97%85-%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4-%EA%B3%BC%EC%A0%95/">서초구 4차 산업 소프트웨어 과정</a></li>
+      <li><a href="https://makethfun.github.io/tags/til/">TIL</a></li>
+      <li><a href="https://makethfun.github.io/tags/today-i-learned/">Today I Learned</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="next" href="https://makethfun.github.io/posts/seocho/til-tailwindcss-install/">
+    <span class="title">Next »</span>
+    <br>
+    <span>[TIL] Tailwindcss Install</span>
+  </a>
+</nav>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2024 <a href="https://makethfun.github.io/">MY TIL CHALLENGE</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>

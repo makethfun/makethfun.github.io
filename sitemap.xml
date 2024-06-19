@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://makethfun.github.io/posts/seocho/til-emmet/</loc>
+    <lastmod>2024-06-19T16:53:42+09:00</lastmod>
+  </url><url>
     <loc>https://makethfun.github.io/posts/seocho/til-tailwindcss-install/</loc>
     <lastmod>2024-06-12T16:52:17+09:00</lastmod>
   </url><url>
@@ -39,33 +42,33 @@
     <lastmod>2024-05-11T19:38:24+09:00</lastmod>
   </url><url>
     <loc>https://makethfun.github.io/categories/</loc>
-    <lastmod>2024-06-12T16:52:17+09:00</lastmod>
+    <lastmod>2024-06-19T16:53:42+09:00</lastmod>
   </url><url>
     <loc>https://makethfun.github.io/</loc>
-    <lastmod>2024-06-12T16:52:17+09:00</lastmod>
+    <lastmod>2024-06-19T16:53:42+09:00</lastmod>
   </url><url>
     <loc>https://makethfun.github.io/posts/</loc>
-    <lastmod>2024-06-12T16:52:17+09:00</lastmod>
+    <lastmod>2024-06-19T16:53:42+09:00</lastmod>
   </url><url>
     <loc>https://makethfun.github.io/categories/seocho/</loc>
-    <lastmod>2024-06-12T16:52:17+09:00</lastmod>
+    <lastmod>2024-06-19T16:53:42+09:00</lastmod>
   </url><url>
     <loc>https://makethfun.github.io/tags/</loc>
-    <lastmod>2024-06-12T16:52:17+09:00</lastmod>
-  </url><url>
-    <loc>https://makethfun.github.io/tags/tailwindcss/</loc>
-    <lastmod>2024-06-12T16:52:17+09:00</lastmod>
+    <lastmod>2024-06-19T16:53:42+09:00</lastmod>
   </url><url>
     <loc>https://makethfun.github.io/tags/til/</loc>
-    <lastmod>2024-06-12T16:52:17+09:00</lastmod>
+    <lastmod>2024-06-19T16:53:42+09:00</lastmod>
   </url><url>
     <loc>https://makethfun.github.io/tags/today-i-learned/</loc>
-    <lastmod>2024-06-12T16:52:17+09:00</lastmod>
+    <lastmod>2024-06-19T16:53:42+09:00</lastmod>
   </url><url>
     <loc>https://makethfun.github.io/tags/%EC%84%9C%EC%B4%88%EA%B5%AC-4%EC%B0%A8-%EC%82%B0%EC%97%85-%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4-%EA%B3%BC%EC%A0%95/</loc>
-    <lastmod>2024-06-12T16:52:17+09:00</lastmod>
+    <lastmod>2024-06-19T16:53:42+09:00</lastmod>
   </url><url>
     <loc>https://makethfun.github.io/tags/%EC%97%90%EC%9D%B4%EB%B8%94%EB%9F%B0/</loc>
+    <lastmod>2024-06-19T16:53:42+09:00</lastmod>
+  </url><url>
+    <loc>https://makethfun.github.io/tags/tailwindcss/</loc>
     <lastmod>2024-06-12T16:52:17+09:00</lastmod>
   </url><url>
     <loc>https://makethfun.github.io/tags/array/</loc>
